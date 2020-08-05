@@ -1,0 +1,29 @@
+{
+    "name": "wisdmlabs/todolist",
+    "description": "You can create the to-do-list of your weektask\u001b[C",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bharat Ratan",
+            "email": "mit.bharat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+   
+    "autoload": {
+        "psr-4": {
+            "Wisdmlabs\\Todolist\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wisdmlabs\\Todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+     "require": {
+
+     }
+}
